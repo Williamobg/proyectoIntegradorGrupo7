@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MIL DELICIAS-productos</title>
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilosproductos.css">
+</head> 
+<body>
+    <header class="encabezado">
+        
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2> MIL DELICIAS</h2>                    
+                </div>
+                <nav class="menu-desplegable">
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li class="dropdown">
+                            <a class="dropbtn">SOBRE NOSOTROS</a>
+                            <div class="dropdown-content">
+                                <a href="error.html">Nuestro Equipo</a>
+                                <a href="nosotroshistoria.html">Nuestra Historia</a>                                
+                            </div>
+                        </li>    
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">PRODUCTOS</a>
+                           <div class="dropdown-content">
+                                <a href="productos.html">Pastelería</a>
+                                <a href="error.html">Pan Campo</a>                                
+                            </div>
+                        </li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                        <div class="buttons">                        
+                            <button id="cart-btn">
+                               <i class="fas fa-shopping-cart"></i>
+                            </button>
+                          </div>
+                        
+                    </ul>
+                </nav>
+                <nav class="navegacion ocultar">
+                    <a href="index.html">Inicio</a>
+                    <a href="nosotroshistoria.html">Sobre Nosotros</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="contacto.html">Contacto</a>
+                    
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">   
+            <div class="titulo-pro">
+                <h2>Nuestros productos</h2>       
+            </div>      
+            <ul class="links-volver">
+               <li><a class="text-body" href="index.html">←Home</a></li>                            
+            </ul>   
+            <img class="banner-productos" src="assets/img/panes.jpg" alt="">
+            
+        </div>
+        
+    </header>
+    <section class="menu contenedor">        
+        <div class="botones-platillos">
+            <button class="todos btn btn-verde">Todos</button>
+            <button class="croissants btn btn-verde">Croissants</button>
+            <button class="medialunas btn btn-verde">Medialunas</button>
+            <button class="hojaldres btn btn-verde">Hojaldres</button>
+            
+        </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="croissants">
+                <img data-src="assets/img/croissant1.jpg" alt="">
+                <h2>Croissant Almendrado</h2>                
+                <div class="precio">
+                    <p>$2500</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="croissants">
+                <img data-src="assets/img/croissant2.jpg" alt="">
+                <h2>Croissant combinado</h2>                
+                <div class="precio">
+                    <p>$2200</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="croissants">
+                <img data-src="assets/img/croissant3.jpg" alt="">
+                <h2>Croissant Frambuesa relleno</h2>                
+                <div class="precio">
+                    <p>$2000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="croissants">
+                <img data-src="assets/img/croissant4.jpg" alt="">
+                <h2>Croissant con pastelera y fresas</h2>                
+                <div class="precio">
+                    <p>$2900</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="croissants">
+                <img data-src="assets/img/croissant5.jpg" alt="">
+                <h2>Croissant ccookies</h2>                
+                <div class="precio">
+                    <p>$2700</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="croissants">
+                <img data-src="assets/img/croissant6.jpg" alt="">
+                <h2>Croissant pistacho</h2>                
+                <div class="precio">
+                    <p>$2500</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="medialunas">
+                <img data-src="assets/img/medialuna1.jpg" alt="">
+                <h2>Medialuna tradicional</h2>                
+                <div class="precio">
+                    <p>$1800</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="medialunas">
+                <img data-src="assets/img/medialuna2.jpg" alt="">
+                <h2>Medialuna J&Q</h2>                
+                <div class="precio">
+                    <p>$2000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="medialunas">
+                <img data-src="assets/img/medialuna3.jpg" alt="">
+                <h2>Medialuna con ddl</h2>                
+                <div class="precio">
+                    <p>$1900</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="medialunas">
+                <img data-src="assets/img/medialuna4.jpg" alt="">
+                <h2>Medialuna con chocolate y maní</h2>                
+                <div class="precio">
+                    <p>$2300</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="medialunas">
+                <img data-src="assets/img/medialuna5.jpg" alt="">
+                <h2>Medialuna con chocolate</h2>                
+                <div class="precio">
+                    <p>$2000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="medialunas">
+                <img data-src="assets/img/medialuna3.jpg" alt="">
+                <h2>Medialuna con arequipe</h2>                
+                <div class="precio">
+                    <p>$2000</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="hojaldres">
+                <img data-src="assets/img/hojaldre1.jpg" alt="">
+                <h2>Pan de chocolate</h2>                
+                <div class="precio">
+                    <p>$1800</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="hojaldres">
+                <img data-src="assets/img/hojaldre2.jpg" alt="">
+                <h2>Croissant redondo</h2>                
+                <div class="precio">
+                    <p>$1600</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="hojaldres">
+                <img data-src="assets/img/hojaldre3.jpg" alt="">
+                <h2>Palmerita</h2>                
+                <div class="precio">
+                    <p>$1500</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>    
+            <div class="platillo" data-platillo="hojaldres">
+                <img data-src="assets/img/hojaldre4.jpg" alt="">
+                <h2>Roll de canela</h2>                
+                <div class="precio">
+                    <p>$2800</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="hojaldres">
+                <img data-src="assets/img/hojaldre5.jpg" alt="">
+                <h2>Cañoncito ddl</h2>                
+                <div class="precio">
+                    <p>$1600</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="hojaldres">
+                <img data-src="assets/img/hojaldre6.jpg" alt="">
+                <h2>Budín de cacao</h2>                
+                <div class="precio">
+                    <p>$2500</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div> 
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="contenedor-footer contenedor">
+          <div class="logo-footer alinear-logo">
+             <h1>Bienvenidos a mil delicias</h1>
+             <img data-src="assets/img/logo.png" class="logo-footer" alt="" >
+            </div>
+            
+          
+          <div class="enlaces-footer ultimo-enlaces">
+            <h2>Enlaces de interes</h2>
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="nosotros.html">Nosotros</a></li>
+              <li><a href="productos.html">Productos</a></li>
+              <li><a href="contacto.html">Pedido</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="enlaces-footer">
+                <h2>Noticias</h2>
+                <div class="suscrip"><h3>suscribete para recibir más noticias</h3></div>
+                <input type="email" placeholder="Tu correo">
+                <input type="submit" class="btn btn-verde" value="Suscribirse">
+          </div>
+          
+        </div>
+       
+        <section class="derechos-footer contenedor">
+           
+          <div class="copyright">
+            <p>
+              Todos los derechos reservados & copy;
+              <span id="fecha"></span> panadería mil delicias inc.
+            </p>
+          </div>
+          
+        </section>
+    </footer>
+   
+    <script src="js/app.js"></script>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+</body>
+</html>
